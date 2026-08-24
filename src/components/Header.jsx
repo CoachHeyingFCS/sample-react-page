@@ -1,6 +1,6 @@
-function Hero() {
+function Header() {
   return (
-    <section className="hero">
+    <section className="header">
       <h1>The Impact of Artificial Intelligence on Society</h1>
 
       <p>
@@ -11,4 +11,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Header;
