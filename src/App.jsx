@@ -1,24 +1,25 @@
+import { useState } from "react";
+
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Solutions from "./pages/Solutions";
+import Impacts from "./pages/Impacts";
 import "./App.css"
 
 function App() {
+  const [currentPage, setCurrentPage] = useState("home");
   return (
     <div>
       <Header />
-      <Card
-          title="Education"
-          description="AI tutors can provide personalized instruction."
-      />
-      <Card
-          title="Healthcare"
-          description="AI can help doctors diagnose diseases."
-      />
-      <Card
-          title="Employment"
-          description="AI may automate some jobs while creating others."
-      />
+
+      <Navbar setCurrentPage={setCurrentPage} />
+      
+      {currentPage == "home" && <Home />}
+      {currentPage == "impacts" && <Impacts />}
+      {currentPage == "solutions" && <Solutions />}
       <Footer />
     </div>
 
