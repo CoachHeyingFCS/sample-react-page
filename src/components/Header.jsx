@@ -5,7 +5,7 @@ function Header() {
       <h1>NPC Behavior AI</h1>
 
       <p>
-        Exploring how AI affects culture, the economy, and environment.
+        Exploring how NPC behavior AI ffects culture, the economy, and environment.
       </p>
     </section>
   );

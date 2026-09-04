@@ -1,8 +1,9 @@
+import impact from "../assets/impact.jpg";
+
 import Card from "../components/Card";
 
 function Impacts({setCurrentPage}) {
   return (
-    <div>
     <section className="impacts">
         <p>Impacts</p>
         <Card
@@ -23,8 +24,8 @@ function Impacts({setCurrentPage}) {
           buttonText="Learn More"
           onClick={() => setCurrentPage("environment")}
         />
+        <img src={impact} alt="impact" />
     </section>
-    </div>
     
   );
 }

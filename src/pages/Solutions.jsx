@@ -29,7 +29,7 @@ function Solutions() {
         title="Most Affected Stakeholders"
         description="People from cultural communities are influenced the most. When their traditions or cultures are distorted, they may face unfair treatment based on stereotypes. Game developers may also experience criticism, but the impact on them is primarily economic rather than moral."
       />
-      <img src={culture} alt="Culture" />
+      <img src={culture} alt="culture" />
     </section>
   );
 }
