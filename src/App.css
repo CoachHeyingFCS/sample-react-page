@@ -1,16 +1,26 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #d6f5ff;
 }
 
 .header {
-  background-color: navy;
+  background-color: rgba(0, 41, 154, 0.685);
   color: white;
   padding: 3rem;
   text-align: center;
 }
+h1 {
+  color: rgb(255, 255, 255);
+}
 
+.card p {
+  color: rgb(0, 0, 0);
+}
+
+table {
+  color: rgb(0, 0, 0);
+}
 .card-container {
     display: flex;
     gap: 1rem;
@@ -21,6 +31,27 @@ body {
     background-color: white;
     padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0 2px 5px lightgray;
+    box-shadow: 0 2px 5px rgb(88, 161, 221);
 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  vertical-align: top;
+}
+
+button {
+  border: 3px solid white;
+  background-color: white;
+}
+
+th {
+  background-color: #b4c5f4;
 }

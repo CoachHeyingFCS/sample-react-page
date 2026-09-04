@@ -3,9 +3,6 @@ function Card(props) {
     <section className="card">
       <h2>{props.title}</h2>
       <p>{props.description}</p>
-      <button onClick={props.onClick}>
-      {props.buttonText}
-      </button>
     </section>
   );
 }
